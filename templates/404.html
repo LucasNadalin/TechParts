@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Página Não Encontrada</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <h1>TechParts</h1>
+                <p class="brand-subtitle">Peças Usadas & Recondicionadas</p>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container" style="text-align: center; padding: 6rem 2rem;">
+        <div style="max-width: 600px; margin: 0 auto;">
+            <h1 style="font-size: 4rem; color: var(--primary-color); margin-bottom: 1rem;">404</h1>
+            <h2 style="color: var(--text-dark); margin-bottom: 1rem;">Página Não Encontrada</h2>
+            <p style="color: var(--text-light); font-size: 1.1rem; margin-bottom: 2rem;">
+                Desculpe, a página que você está procurando não existe ou foi movida.
+            </p>
+            <a href="/" class="btn btn-primary">Voltar para Home</a>
+        </div>
+    </main>
+
+    <footer class="footer" style="margin-top: 6rem;">
+        <div class="footer-content">
+            <p>&copy; 2024 TechParts. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
